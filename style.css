@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+    font-family: Roboto, sans-serif;
+}
+
+.header{
+    padding: 19px 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*border: 1px solid white;*/
+}
+
+.logo{
+    width: 188px;
+    height: 76px;
+}
+
+.menu{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+/*alinhando itens da menu lateralmente*/
+.menu ul li{
+    display: inline;
+    margin-right: 96px;
+    cursor: pointer;
+}
+
+.profile{
+    color: white;
+    font-size:20px;
+    display: flex;
+    align-items: center;
+}
+
+.profilePicture{
+    width: 41px;
+    height: 41px;
+    margin-left: 35px;
+    cursor: pointer;
+}
