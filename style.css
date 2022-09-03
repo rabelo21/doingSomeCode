@@ -55,5 +55,13 @@ body{
 }
 
 .main-section{
-    border: 1px solid white;
+    min-height: 862px;
+    background-image: url('./assets/NewBackgroundBlur.jpg');
+    background-size: cover;
+}
+
+.main-poster img{
+    height: 466px;
+    width: 309px;
+    border-radius: 20px;
 }
