@@ -6,7 +6,7 @@
 
 body{
     min-height: 100vh;
-    background-image: linear-gradient(  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+    background-image: linear-gradient(  rgba(18,18,18,1) 10.9%, rgba(81,84,115,1) 87.1% );
     font-family: Roboto, sans-serif;
 }
 
@@ -52,4 +52,8 @@ body{
     height: 41px;
     margin-left: 35px;
     cursor: pointer;
+}
+
+.main-section{
+    border: 1px solid white;
 }
