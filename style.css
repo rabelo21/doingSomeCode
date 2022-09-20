@@ -87,13 +87,54 @@ body{
 
 .main-movie-type{
     margin-top: 24px;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .movie-rating{
     color: #fcc537;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
 }
 
-.note{
+.movie-note{
     margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.imdb-note{
+    color:black;
+    background-color: #fcc537;;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    font-weight: 660;
+}
+
+.movie-duration{
+    margin-top: 24px;
+}
+
+.movie-categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.movie-category{
+    margin-left: 18px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255,);
+    backdrop-filter: blur(30px);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.movie-category:hover{
+    background-color: white;
+    color: black;
+    transition: 350ms;
+    transform: scale(1.09, 1.09);
 }
