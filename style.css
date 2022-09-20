@@ -60,8 +60,40 @@ body{
     background-size: cover;
 }
 
-.main-poster img{
-    height: 466px;
-    width: 309px;
+.main-data{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.main-movie-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 24px;
+    color: #fff;
+}
+
+.main-data img{
+    height: 446px;
+    width: 289px;
     border-radius: 20px;
+}
+.main-movie-name{
+    font-weight: 600;
+    font-size: 32px;
+    
+}
+
+.main-movie-type{
+    margin-top: 24px;
+    font-size: 17px;
+}
+
+.movie-rating{
+    color: #fcc537;
+}
+
+.note{
+    margin-right: 10px;
 }
