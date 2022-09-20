@@ -8,6 +8,7 @@ body{
     min-height: 100vh;
     background-image: linear-gradient(  rgba(18,18,18,1) 10.9%, rgba(81,84,115,1) 87.1% );
     font-family: Roboto, sans-serif;
+    margin:0
 }
 
 .header{
@@ -118,15 +119,13 @@ body{
 
 .movie-categories{
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 24px;
 }
 
 .movie-category{
-    margin-left: 18px;
+    margin-right: 18px;
     padding: 10px;
-    background-color: rgb(255, 255, 255,);
+    background-color: rgb(255, 255, 255, 0.2);
     backdrop-filter: blur(30px);
     border-radius: 7px;
     cursor: pointer;
@@ -137,4 +136,10 @@ body{
     color: black;
     transition: 350ms;
     transform: scale(1.09, 1.09);
+}
+
+.movie-description{
+    margin-top: 24px;
+    font-size: 16px;
+    max-width: 662px;
 }
